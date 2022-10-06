@@ -15,12 +15,6 @@ Discord tool to nuke servers through the use of a bot. Developed in Python using
 ## ScreenShot
 ![home.png](https://cdn.discordapp.com/attachments/1027459607456657410/1027608832077217882/screenshot.PNG?size=4096)
 
-
-## Contact
-Discord: Mat#3616
-Telegram: t.me/negrigente
-
-
 ## Installation guide
 
 #### First Method
@@ -33,4 +27,10 @@ Start the setup.bat file.
 $ git clone https://github.com/itsmat/DiscordNukerTool.git
 $ python -m pip install -r requirements.txt
 $ python3 MatNukerTool.py
-``
+```
+
+## Contact
+- Telegram [@negrigente](https://t.me/negrigente)
+- Discord [Mat#3616](https://github.com/itsmat)
+
+> 💡 Got a feature idea? Open an [issue](https://github.com/fabston/TradingView-Webhook-Bot/issues/new?assignees=&labels=enhancement&template=feature-request---.md) and I might implement it.
