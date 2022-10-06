@@ -12,7 +12,7 @@ Discord tool to nuke servers through the use of a bot. Developed in Python using
 - [ ] - [WebHooks Remover](https://github.com/itsmat/DiscordNukerTool) - Delete any WebHooks link.
 - [ ] - [Multi Language](https://github.com/itsmat/DiscordNukerTool) - Multi Language Tool.
 
-## ScreenShoot
+## ScreenShot
 ![home.png](https://cdn.discordapp.com/attachments/1027459607456657410/1027608832077217882/screenshot.PNG?size=4096)
 
 
