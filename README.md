@@ -33,4 +33,4 @@ $ python3 MatNukerTool.py
 - Telegram [@negrigente](https://t.me/negrigente)
 - Discord [Mat#3616](https://github.com/itsmat)
 
-> 💡 Got a feature idea? Open an [issue](https://github.com/fabston/TradingView-Webhook-Bot/issues/new?assignees=&labels=enhancement&template=feature-request---.md) and I might implement it.
+> 💡 Do you have a function to implement? Open an [issue](https://github.com/itsmat/DiscordNukerTool/issues/new) and I might implement it.
