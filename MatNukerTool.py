@@ -29,7 +29,15 @@ intents.members = True
 intents.guild_messages = True 
 intents.messages = True
 intents.guilds = True
-nuker = commands.Bot(command_prefix=";",intents=intents)
+#nuker = commands.Bot(command_prefix=";",intents=intents)
+
+class Bot(commands.Bot):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+nuker = Bot()
+
+
 global statobot
 statobot = 'Offline'
 
@@ -250,7 +258,8 @@ def main():
                 nuker.run(f'{token}')
             except LoginFailure:
                 input(f"{y}[{Fore.LIGHTRED_EX }!{y}]{w} Il token inserito non è valido!")
-        except:
+        except Exception as errore:
+            print(errore)
             input(f"{y}[{Fore.LIGHTRED_EX }!{y}]{w} Devi prima impostare il token del bot e l'id del server!")
             main()
     elif scelta == 'exit' or scelta == 'chiudi':
@@ -264,4 +273,3 @@ def main():
 
 
 main()
-
