@@ -2,3 +2,4 @@ pystyle==2.0
 colorama==0.4.4
 urllib3==1.26.8
 nextcord==2.1.0
+requests
